@@ -7,6 +7,7 @@
 
 - shell:
   - ['curl -s https://get.sdkman.io | bash', Installing SDKMAN!]
+  - ['curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash', Installing Node Version Manager]
 
 - brew:
   - zsh
