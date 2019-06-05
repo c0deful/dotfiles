@@ -8,6 +8,9 @@
 - brew:
   - zsh
 
+- cask:
+  - hyper
+
 - link:
     ~/.zshrc: zsh/zshrc
 
