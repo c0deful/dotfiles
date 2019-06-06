@@ -16,11 +16,13 @@ compinit
 # Local config
 [[ -s "$HOME/.local.sh" ]] && source "$HOME/.local.sh"
 
-# Powerlevel9k theme config
-POWERLEVEL9K_MODE='nerdfont-complete'
-
 # load plugins bundled by antibody
 source ~/.zsh_plugins_bundle
+
+# pure prompt
+autoload -U promptinit
+promptinit
+prompt pure
 
 # Node Version Manager
 export NVM_DIR="$HOME/.nvm"
