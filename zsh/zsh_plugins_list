@@ -1,2 +1,5 @@
 zsh-users/zsh-completions
 zsh-users/zsh-syntax-highlighting
+
+# theme
+bhilburn/powerlevel9k

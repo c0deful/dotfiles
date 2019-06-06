@@ -9,19 +9,28 @@
   - ['curl -s https://get.sdkman.io | bash', Installing SDKMAN!]
   - ['curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash', Installing Node Version Manager]
 
+- tap:
+  - homebrew/cask-fonts
+
 - brew:
   - zsh
   - getantibody/tap/antibody
 
 - cask:
   - hyper
+  - font-firacode-nerd-font
 
 - shell:
   - ['antibody bundle < zsh/zsh_plugins_list > zsh/zsh_plugins_bundle', Bundling antibody plugins]
 
 - link:
-    ~/.zshrc: zsh/zshrc
+    ~/.zshrc:
+      path: zsh/zshrc
+      force: true
     ~/.zsh_plugins_bundle: zsh/zsh_plugins_bundle
+    ~/.hyper.js:
+      path: hyper/hyper.js
+      force: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
