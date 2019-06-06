@@ -11,12 +11,17 @@
 
 - brew:
   - zsh
+  - getantibody/tap/antibody
 
 - cask:
   - hyper
 
+- shell:
+  - ['antibody bundle < zsh/zsh_plugins_list > zsh/zsh_plugins_bundle', Bundling antibody plugins]
+
 - link:
     ~/.zshrc: zsh/zshrc
+    ~/.zsh_plugins_bundle: zsh/zsh_plugins_bundle
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

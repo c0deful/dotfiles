@@ -16,6 +16,9 @@ compinit
 # Local config
 [[ -s "$HOME/.local.sh" ]] && source "$HOME/.local.sh"
 
+# load plugins bundled by antibody
+source ~/.zsh_plugins_bundle
+
 # Node Version Manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use
