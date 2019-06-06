@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 14,
 
     // font family with optional fallbacks
-    fontFamily: 'FuraCode Nerd Font, monospace',
+    fontFamily: 'FuraCode Nerd Font Mono, monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -146,7 +146,9 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: [
+    'hyper-one-dark',
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here

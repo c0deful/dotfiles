@@ -19,6 +19,7 @@
 - cask:
   - hyper
   - font-firacode-nerd-font
+  - font-firacode-nerd-font-mono
 
 - shell:
   - ['antibody bundle < zsh/zsh_plugins_list > zsh/zsh_plugins_bundle', Bundling antibody plugins]
