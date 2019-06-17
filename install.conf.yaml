@@ -25,6 +25,9 @@
   - ['antibody bundle < zsh/zsh_plugins_list > zsh/zsh_plugins_bundle', Bundling antibody plugins]
 
 - link:
+    ~/.gitconfig:
+      path: git/gitconfig
+      force: true
     ~/.zshrc:
       path: zsh/zshrc
       force: true

@@ -1,0 +1,12 @@
+[include]
+	path = .gitconfig_local
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	purr = pull --rebase
+
+[help]
+	autocorrect = 1
