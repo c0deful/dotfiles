@@ -17,7 +17,6 @@
   - getantibody/tap/antibody
 
 - cask:
-  - hyper
   - font-firacode-nerd-font
   - font-firacode-nerd-font-mono
 
@@ -32,9 +31,6 @@
       path: zsh/zshrc
       force: true
     ~/.zsh_plugins_bundle: zsh/zsh_plugins_bundle
-    ~/.hyper.js:
-      path: hyper/hyper.js
-      force: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
