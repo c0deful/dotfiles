@@ -17,8 +17,7 @@
   - getantibody/tap/antibody
 
 - cask:
-  - font-firacode-nerd-font
-  - font-firacode-nerd-font-mono
+  - font-fira-code-nerd-font
 
 - shell:
   - ['antibody bundle < zsh/zsh_plugins_list > zsh/zsh_plugins_bundle', Bundling antibody plugins]
