@@ -18,6 +18,7 @@
 
 - cask:
   - font-fira-code-nerd-font
+  - iterm2
 
 - shell:
   - ['antibody bundle < zsh/zsh_plugins_list > zsh/zsh_plugins_bundle', Bundling antibody plugins]
